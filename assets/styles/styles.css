@@ -1,0 +1,28 @@
+/* body{
+    background-color: rgb(15, 15, 15)!important;
+} */
+
+#div1{
+    background-image: url("../img/tileburnedin.jpg");
+    background-size: cover;
+}
+.nav-clone{
+    background-color: rgb(15, 15, 15)!important;
+    color: white;
+    height: 6%;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: x-large;
+    
+}
+/* .scroll-eff{
+        -webkit-transition: opacity 0.2s ease;
+} */
+
+.tit{
+    text-align: center;
+}
+.user{
+    text-align: right;
+}
