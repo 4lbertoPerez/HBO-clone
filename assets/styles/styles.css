@@ -10,16 +10,28 @@ body{
     color: rgb(255, 255, 255);
     position: relative;
 }
+h2{
+    text-align: center;
+    color: white!important;
+    padding-top: 60px!important;
+    padding-bottom: 10px!important;
+}
 
 .nav-clone{
     background-color: rgb(15, 15, 15)!important;
     color: white;
-    height: 6%;
-    padding-top: 5px;
+    height: 9%;
+    padding-top: 10px;
     padding-right: 15px;
     padding-left: 15px;
     font-size: x-large;
-    
+}
+.finder{
+    width: 40%!important;
+    background-color: transparent;
+    text-align: center;
+    border-color: white;
+    color: white;
 }
 /* .scroll-eff{
         -webkit-transition: opacity 0.2s ease;
@@ -39,10 +51,22 @@ body{
 
 }
 
-#div2{
+#div2, #div3{
     position: relative;
     color: rgb(255, 255, 255);
 }
+.img{
+    max-height: 80%;
+    max-width: 50%;
+    min-height: 80%;
+    min-width: 50%;
+}
+
+.dad{
+    padding-left: 8%!important;
+}
+
+
 /* .inside2{
     position: absolute;
     top: 20%;
@@ -52,4 +76,17 @@ body{
     max-width: 50%;
     max-height: 50%;
 } */
+
+
+.js-image{
+    margin-left: 30px;
+}
+.js-p{
+    position: absolute;
+    left: 450px;
+    top: 50%;
+    width: 50%;
+    font-size: large;
+}
+
 
