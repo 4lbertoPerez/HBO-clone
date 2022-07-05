@@ -1,11 +1,11 @@
-$(document).ready(function () {
+function getScreenSize() {
   var height = $(window).height();
   height = height;
   $("#div1").height(height);
   height = height / 2;
   $("#div2").height(height);
   $("#div3").height(height);
-});
+}
 
 function fillApp(arrayDef, type, img, tit) {
   for (let index = 0; index < arrayDef.length; index++) {
@@ -76,6 +76,8 @@ function findMovie() {
 }
 
 window.addEventListener("load", () => {
+  screenSize();
+
   let arrayDef = ["pete", "random", "spider", "bob", "titans", "mario"];
   let type = "movie";
 
