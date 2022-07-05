@@ -6,7 +6,6 @@ function getScreenSize() {
   $("#div2").height(height);
   $("#div3").height(height);
 }
-
 function fillApp(arrayDef, type, img, tit) {
   for (let index = 0; index < arrayDef.length; index++) {
     const url = `http://www.omdbapi.com/?apikey=ad24807e&t=${arrayDef[index]}&type=${type}`;
@@ -76,7 +75,7 @@ function findMovie() {
 }
 
 window.addEventListener("load", () => {
-  screenSize();
+  getScreenSize();
 
   let arrayDef = ["pete", "random", "spider", "bob", "titans", "mario"];
   let type = "movie";
